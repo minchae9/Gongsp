@@ -1,0 +1,34 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.todo-create {
+  padding: 1rem;
+}
+.todo-create input {
+  width: 85%;
+  height: 28px;
+  background-color: var(--htmlbgColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  font-size: 13px;
+  padding-left: 6px;
+  color: var(--textColor);
+}
+.todo-create :focus {
+  outline: 1px solid #6667ab;
+}
+.todo-create ::placeholder {
+  font-size: 12px;
+  color: var(--textColor-darker);
+}
+.todo-create .todo-create-btn {
+  cursor: pointer;
+  color: #6667ab;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=todoCreate.css.map */

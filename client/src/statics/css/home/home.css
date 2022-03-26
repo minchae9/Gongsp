@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.home {
+  background-color: var(--htmlbgColor);
+  width: 100%;
+}
+.home .home-tab {
+  display: flex;
+  margin-left: 8%;
+  padding: 60px 8% 0 0;
+}
+.home .home-tab .home-profile {
+  z-index: 3;
+  position: fixed;
+  top: 108px;
+  font-family: "Pretendard";
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+}
+.home .home-tab .home-profile .home-profile-img-wrapper {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.home .home-tab .home-profile .home-profile-img-wrapper img {
+  position: relative;
+  top: -256px;
+  left: 0;
+  transform: translate(50, 50);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 100%;
+}
+.home .home-tab .home-profile .home-profile-img-wrapper svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(50, 50);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 100%;
+}
+.home .home-tab .home-profile .home-profile-nickname {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--textColor);
+}
+.home .home-tab .home-profile .home-profile-email {
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--textColor-darkest);
+}
+.home .home-tab .home-profile .home-profile-msg {
+  font-size: 12px;
+  color: var(--textColor-dark);
+  padding-top: 12px;
+  white-space: pre-wrap;
+}
+.home .home-tab .home-contents {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 25%;
+}
+
+/*# sourceMappingURL=home.css.map */

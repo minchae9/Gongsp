@@ -1,0 +1,18 @@
+@import "../main.scss";
+
+.home-todos {
+  & button {
+    border: none;
+    background-color: var(--bgColor);
+    font-size: 14px;
+    color: var(--textColor-todo);
+    padding-left: 90%;
+  }
+  .empty-box {
+    height: 40px;
+  }
+}
+.todo-no-data {
+  padding: 0.5rem 1rem;
+  color: var(--textColor-todo);
+}

@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.home-statistics {
+  font-family: "Pretendard";
+}
+.home-statistics span {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--textColor);
+  margin-left: 5px;
+}
+.home-statistics .home-statistics-top {
+  margin-bottom: 8vh;
+}
+.home-statistics .home-statistics-top .home-statistics-top-box {
+  background: var(--bgColor);
+  border: 1px solid var(--borderColor);
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 56vw;
+  margin-top: 9px;
+  padding: 10px 24px;
+}
+
+/*# sourceMappingURL=homeStatistics.css.map */

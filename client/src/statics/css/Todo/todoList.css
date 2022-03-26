@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.todo-list {
+  font-family: "Pretendard";
+}
+
+.todo-list__header {
+  font-size: 16px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  color: var(--textColor);
+}
+
+.todo-list__body {
+  padding: 0.8rem 0;
+  background-color: var(--bgColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=todoList.css.map */

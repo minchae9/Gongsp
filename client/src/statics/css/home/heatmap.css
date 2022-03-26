@@ -1,0 +1,54 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.heatmap text {
+  font-family: "Pretendard";
+  font-size: 8px;
+}
+.heatmap .react-calendar-heatmap-month-label {
+  fill: var(--textColor-darker);
+}
+.heatmap .react-calendar-heatmap .today {
+  stroke: var(--textColor);
+}
+.heatmap .react-calendar-heatmap rect {
+  cursor: pointer;
+  rx: 3px;
+}
+.heatmap .react-calendar-heatmap rect:hover {
+  stroke: var(--textColor-dark);
+  border: 0.5px solid var(--textColor-dark);
+}
+.heatmap .react-calendar-heatmap rect:active {
+  stroke: var(--textColor-dark);
+  border: 0.5px solid var(--textColor-dark);
+}
+.heatmap .react-calendar-heatmap rect:visited {
+  stroke: var(--textColor-dark);
+  border: 0.5px solid var(--textColor-dark);
+}
+.heatmap .react-calendar-heatmap :focus {
+  outline: none;
+}
+.heatmap .react-calendar-heatmap .color-beammp-empty {
+  fill: var(--textColor-todo);
+}
+.heatmap .react-calendar-heatmap .color-beammp-0 {
+  fill: var(--github-01);
+}
+.heatmap .react-calendar-heatmap .color-beammp-1 {
+  fill: var(--github-02);
+}
+.heatmap .react-calendar-heatmap .color-beammp-2 {
+  fill: var(--github-03);
+}
+.heatmap .react-calendar-heatmap .color-beammp-3 {
+  fill: #6667ab;
+}
+.heatmap .react-calendar-heatmap .color-beammp-4 {
+  fill: #2e2f8b;
+}
+
+/*# sourceMappingURL=heatmap.css.map */

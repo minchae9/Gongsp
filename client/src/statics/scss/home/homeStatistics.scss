@@ -1,0 +1,35 @@
+@import "../main.scss";
+
+.home-statistics {
+  font-family: $font-family;
+  & span {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--textColor);
+    margin-left: 5px;
+  }
+  .home-statistics-top {
+    margin-bottom: 8vh;
+    .home-statistics-top-box {
+      background: var(--bgColor);
+      border: 1px solid var(--borderColor);
+      box-sizing: border-box;
+      border-radius: 10px;
+      width: 56vw;
+      // height: 40vh;
+      margin-top: 9px;
+      padding: 10px 24px;
+    }
+  }
+  // .home-statistics-bottom {
+  //   .home-statistics-bottom-box {
+  //     background: var(--bgColor);
+  //     border: 1px solid var(--borderColor);
+  //     box-sizing: border-box;
+  //     border-radius: 10px;
+  //     width: 56vw;
+  //     height: 303px;
+  //     margin-top: 9px;
+  //   }
+  // }
+}

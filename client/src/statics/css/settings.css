@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.settings {
+  background-color: var(--htmlbgColor);
+  display: flex;
+  padding-right: 18%;
+}
+.settings .settings-sidebar {
+  margin-right: 6.5%;
+  padding-left: 10%;
+}
+.settings .settings-sidebar .settings-myprofile {
+  font-family: "Pretendard";
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 14px;
+  padding-left: 10%;
+  margin-left: 10px;
+}
+.settings .settings-sidebar .settings-myprofile .settings-myprofile-img-wrapper {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  margin-right: 13px;
+}
+.settings .settings-sidebar .settings-myprofile .settings-myprofile-img-wrapper img {
+  position: relative;
+  top: -42px;
+  left: 0;
+  transform: translate(50, 50);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 100%;
+}
+.settings .settings-sidebar .settings-myprofile .settings-myprofile-img-wrapper svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(50, 50);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 100%;
+}
+.settings .settings-sidebar .settings-myprofile .settings-myprofile__text .settings-myprofile__text-nickname {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--textColor);
+}
+.settings .settings-sidebar .settings-myprofile .settings-myprofile__text .settings-myprofile__text-email {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--textColor-darker);
+}
+
+/*# sourceMappingURL=settings.css.map */

@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.todo-item {
+  font-family: "Pretendard";
+  font-size: 14px;
+  color: var(--textColor);
+}
+.todo-item .todo-item__edit {
+  background-color: var(--htmlbgColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  color: var(--textColor);
+  font-size: 14px;
+  height: 28px;
+  width: 85%;
+}
+.todo-item :focus {
+  outline: 1px solid #6667ab;
+}
+.todo-item .todo-item-block__checkbox {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.todo-item .todo-item-block__checkbox.disable {
+  cursor: default;
+}
+.todo-item .todo-item-block__todo {
+  display: flex;
+  align-items: center;
+}
+.todo-item .todo-item-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.4rem 0.3rem 1.3rem;
+}
+.todo-item .todo-item-block:hover .todo-item-blick__remove {
+  opacity: 1;
+}
+.todo-item .todo-item-block-text {
+  flex: 1;
+  display: contents;
+  color: var(--textColor-todo);
+}
+.todo-item .todo-item-block-text.todo-done {
+  color: #6667ab;
+  font-weight: 500;
+}
+.todo-item .todo-item-blick__remove {
+  margin-left: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dee2e6;
+  font-size: 1.3rem;
+  cursor: pointer;
+  opacity: 0;
+}
+.todo-item .todo-item-blick__remove:hover {
+  color: #6667ab;
+}
+.todo-item .todo-item-block__btns {
+  display: flex;
+}
+
+/*# sourceMappingURL=todoItem.css.map */

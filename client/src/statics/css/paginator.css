@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-family: "Pretendard";
+}
+.pagination a {
+  text-decoration: none;
+  font-size: 12px;
+  border: none;
+  color: var(--textColor);
+}
+.pagination li {
+  width: 1.6rem;
+  height: 1.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.2rem 0 0.2rem;
+}
+.pagination li.active {
+  background-color: #6667ab;
+  border-radius: 100%;
+}
+.pagination li.active a {
+  color: #eeeeee;
+}
+.pagination li.disabled a {
+  cursor: default;
+  color: var(--textColor-darkest);
+}
+
+/*# sourceMappingURL=paginator.css.map */

@@ -1,0 +1,13 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+.hidden {
+  display: none;
+}
+
+.study-personnel__applicants {
+  color: var(--textColor);
+  display: flex;
+  margin-bottom: 6px;
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=studyPersonnel.css.map */
